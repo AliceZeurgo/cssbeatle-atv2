@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Para formatar a pagina */
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    background-color: #62374e;
+    padding: 50px;
+    place-items: center;
+}
+
+/* O grid foi usado para definir que a forma da página seria em formato de colunas, o place-items para os itens ficarem no centro das divs.*/
+
+div{
+    width: 100px;
+    height: 100px;
+    background: #fdc57b;
+}
+
+/*
+ width: Definir largura 
+ height: Definir altura 
+ Background: Definir cor
+  */
